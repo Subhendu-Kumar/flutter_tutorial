@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:weather_app/additional_info_item.dart';
-import 'package:weather_app/hourly_forecast_item.dart';
+import 'package:weather_app/widgets/additional_info_item.dart';
+import 'package:weather_app/widgets/hourly_forecast_item.dart';
 
 class WeatherAppScreen extends StatefulWidget {
   const WeatherAppScreen({super.key});
