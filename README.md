@@ -4,15 +4,39 @@ This repository contains a collection of Flutter-based mobile applications devel
 
 ## 📁 Project Overview
 
-### 1. `currency_converter`
+### 1. `animation_tutorial`
 
-A simple app to convert values between US doller and INR rupee with exchange rates.
+A project that demonstrates various Flutter animation techniques.
+
+- Features:
+  - Basic and advanced animations
+  - Smooth transitions and custom animations
+
+### 2. `cubit_app`
+
+An example app using the Cubit state management approach from the `flutter_bloc` package.
+
+- Features:
+  - State management with Cubit
+  - Clean architecture and separation of concerns
+
+### 3. `currency_converter`
+
+A simple app to convert values between US Dollar and INR Rupee with exchange rates.
 
 - Features:
   - User input for amount
   - Clean and responsive UI
 
-### 2. `shopping_app`
+### 4. `login_form_validate_demo`
+
+A demo showcasing form validation for login screens.
+
+- Features:
+  - Input validation (email/password)
+  - Form handling using Flutter's built-in validators
+
+### 5. `shopping_app`
 
 A basic shopping application showcasing product listings and a cart system.
 
@@ -21,7 +45,15 @@ A basic shopping application showcasing product listings and a cart system.
   - Add to cart functionality
   - Simple state management
 
-### 3. `weather_app`
+### 6. `todo_list`
+
+A simple to-do list application to manage daily tasks.
+
+- Features:
+  - Add, delete, and toggle tasks
+  - Local state management
+
+### 7. `weather_app`
 
 A weather forecast application that displays current weather data for a given location.
 
@@ -36,9 +68,12 @@ Each project can be run individually. Navigate to the specific project directory
 
 ```bash
 flutter_projects/
-│
+├── animation_tutorial/
+├── cubit_app/
 ├── currency_converter/
+├── login_form_validate_demo/
 ├── shopping_app/
+├── todo_list/
 └── weather_app/
 ```
 
